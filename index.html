@@ -47,7 +47,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css">
 </head>
-<body class="bg-[#090d16] text-slate-100 font-sans antialiased selection:bg-amber-500 selection:text-black">
+<body class="bg-[#090d16] text-slate-100 font-sans antialiased selection:bg-amber-500 selection:text-black keep-all">
 
   <!-- ==========================================================================
        1. GLOBAL HEADER & NAVIGATION
@@ -56,21 +56,21 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
       
       <!-- Logo -->
-      <a href="#" class="flex items-center gap-3 group">
-        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center font-black text-black text-xl shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
+      <a href="#" class="flex items-center gap-3 group flex-shrink-0">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center font-black text-black text-xl shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform flex-shrink-0">
           S1
         </div>
         <div>
-          <span class="text-xl font-extrabold tracking-tight text-white flex items-center gap-1.5">
+          <span class="text-xl font-extrabold tracking-tight text-white flex items-center gap-1.5 whitespace-nowrap">
             STAFF ONELINE
             <span class="text-xs px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-400 font-semibold border border-amber-500/30">™</span>
           </span>
-          <p class="text-[11px] text-slate-400 font-medium tracking-wider">행사 전문인력 파견 파트너</p>
+          <p class="text-[11px] text-slate-400 font-medium tracking-wider whitespace-nowrap">행사 전문인력 파견 파트너</p>
         </div>
       </a>
 
       <!-- Desktop Nav -->
-      <nav class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-300">
+      <nav class="hidden lg:flex items-center gap-7 text-sm font-medium text-slate-300 whitespace-nowrap">
         <a href="#strengths" class="hover:text-amber-400 transition-colors">스탭원라인 강점</a>
         <a href="#services" class="hover:text-amber-400 transition-colors">파견분야</a>
         <a href="#rental" class="hover:text-amber-400 transition-colors">운영물품 렌탈</a>
@@ -83,12 +83,12 @@
       </nav>
 
       <!-- Header CTA -->
-      <div class="hidden sm:flex items-center gap-3">
-        <a href="tel:01088270486" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200 text-xs font-semibold transition-all">
-          <i data-lucide="phone-call" class="w-3.5 h-3.5 text-amber-400"></i>
+      <div class="hidden sm:flex items-center gap-3 flex-shrink-0">
+        <a href="tel:01088270486" class="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-200 text-xs font-semibold transition-all whitespace-nowrap">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5 text-amber-400 flex-shrink-0"></i>
           <span>김용 실장 010-8827-0486</span>
         </a>
-        <a href="#contact" class="btn-primary px-4 py-2 rounded-xl text-xs flex items-center gap-1.5">
+        <a href="#contact" class="btn-primary px-4 py-2 rounded-xl text-xs flex items-center gap-1.5 whitespace-nowrap">
           <i data-lucide="send" class="w-3.5 h-3.5"></i>
           <span>빠른 견적 문의</span>
         </a>
@@ -163,18 +163,18 @@
         
         <!-- Top Badge -->
         <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass-pill text-xs sm:text-sm font-medium text-amber-300 mb-6 border border-amber-500/20 shadow-inner">
-          <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
-          <span>Since 2014 • 대한민국 No.1 행사 전문인력 파견 파트너</span>
+          <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping flex-shrink-0"></span>
+          <span class="whitespace-nowrap">Since 2014 • 대한민국 No.1 행사 전문인력 파견 파트너</span>
         </div>
 
         <!-- Main Headline -->
-        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-tight sm:leading-none text-white max-w-4xl mx-auto">
+        <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-snug sm:leading-tight text-white max-w-4xl mx-auto">
           성공적인 행사의 완벽한 파트너,<br>
           <span class="gradient-accent">스탭 원라인™</span>이 책임집니다.
         </h1>
 
         <!-- Subheadline -->
-        <p class="mt-6 text-base sm:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-normal">
+        <p class="mt-6 text-base sm:text-lg lg:text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed font-normal">
           스탭 섭외 계약부터 출결 관리, 현장 진행팀장 인솔, 정산까지!<br class="hidden sm:inline">
           <strong class="text-white font-semibold">6,000여 명의 전국 스탭 네트워크</strong>와 <strong class="text-white font-semibold">15년차 이벤트 전문 PD</strong>의 노하우로 한 번에 편하게 준비하세요.
         </p>
@@ -195,47 +195,47 @@
         <div class="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 max-w-4xl mx-auto text-left">
           
           <div class="glass-card p-5 sm:p-6 border-slate-800/80">
-            <div class="flex items-center gap-3 mb-2">
-              <div class="p-2.5 rounded-xl bg-amber-500/10 text-amber-400">
-                <i data-lucide="award" class="w-5 h-5"></i>
+            <div class="flex items-center gap-2.5 mb-2">
+              <div class="p-2 rounded-xl bg-amber-500/10 text-amber-400 flex-shrink-0">
+                <i data-lucide="award" class="w-4 h-4"></i>
               </div>
-              <span class="text-xs text-slate-400 font-medium">누적 수행 실적</span>
+              <span class="text-xs text-slate-400 font-medium whitespace-nowrap">누적 수행 실적</span>
             </div>
-            <div class="text-2xl sm:text-3xl font-black text-white">1,800<span class="text-amber-400">+</span> <span class="text-sm font-normal text-slate-400">건</span></div>
-            <p class="text-[11px] text-slate-500 mt-1">대형 국제행사·컨벤션·페스티벌</p>
+            <div class="text-2xl sm:text-3xl font-black text-white whitespace-nowrap">1,800<span class="text-amber-400">+</span> <span class="text-sm font-normal text-slate-400">건</span></div>
+            <p class="text-[11px] text-slate-500 mt-1 whitespace-nowrap">대형 국제행사·컨벤션·페스티벌</p>
           </div>
 
           <div class="glass-card p-5 sm:p-6 border-slate-800/80">
-            <div class="flex items-center gap-3 mb-2">
-              <div class="p-2.5 rounded-xl bg-blue-500/10 text-blue-400">
-                <i data-lucide="users" class="w-5 h-5"></i>
+            <div class="flex items-center gap-2.5 mb-2">
+              <div class="p-2 rounded-xl bg-blue-500/10 text-blue-400 flex-shrink-0">
+                <i data-lucide="users" class="w-4 h-4"></i>
               </div>
-              <span class="text-xs text-slate-400 font-medium">전국 스탭 인프라</span>
+              <span class="text-xs text-slate-400 font-medium whitespace-nowrap">전국 스탭 인프라</span>
             </div>
-            <div class="text-2xl sm:text-3xl font-black text-white">6,000<span class="text-blue-400">+</span> <span class="text-sm font-normal text-slate-400">명</span></div>
-            <p class="text-[11px] text-slate-500 mt-1">24시간 상시대기 & 긴급대체</p>
+            <div class="text-2xl sm:text-3xl font-black text-white whitespace-nowrap">6,000<span class="text-blue-400">+</span> <span class="text-sm font-normal text-slate-400">명</span></div>
+            <p class="text-[11px] text-slate-500 mt-1 whitespace-nowrap">24시간 상시대기 & 긴급대체</p>
           </div>
 
           <div class="glass-card p-5 sm:p-6 border-slate-800/80">
-            <div class="flex items-center gap-3 mb-2">
-              <div class="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-400">
-                <i data-lucide="user-check" class="w-5 h-5"></i>
+            <div class="flex items-center gap-2.5 mb-2">
+              <div class="p-2 rounded-xl bg-emerald-500/10 text-emerald-400 flex-shrink-0">
+                <i data-lucide="user-check" class="w-4 h-4"></i>
               </div>
-              <span class="text-xs text-slate-400 font-medium">진행팀장 파견</span>
+              <span class="text-xs text-slate-400 font-medium whitespace-nowrap">진행팀장 파견</span>
             </div>
-            <div class="text-2xl sm:text-3xl font-black text-white">100<span class="text-emerald-400">%</span> <span class="text-sm font-normal text-slate-400">원칙</span></div>
-            <p class="text-[11px] text-slate-500 mt-1">관리자급 팀 리더 동행 인솔</p>
+            <div class="text-2xl sm:text-3xl font-black text-white whitespace-nowrap">100<span class="text-emerald-400">%</span> <span class="text-sm font-normal text-slate-400">원칙</span></div>
+            <p class="text-[11px] text-slate-500 mt-1 whitespace-nowrap">관리자급 팀 리더 동행 인솔</p>
           </div>
 
           <div class="glass-card p-5 sm:p-6 border-slate-800/80">
-            <div class="flex items-center gap-3 mb-2">
-              <div class="p-2.5 rounded-xl bg-purple-500/10 text-purple-400">
-                <i data-lucide="sparkles" class="w-5 h-5"></i>
+            <div class="flex items-center gap-2.5 mb-2">
+              <div class="p-2 rounded-xl bg-purple-500/10 text-purple-400 flex-shrink-0">
+                <i data-lucide="sparkles" class="w-4 h-4"></i>
               </div>
-              <span class="text-xs text-slate-400 font-medium">이벤트 전문가</span>
+              <span class="text-xs text-slate-400 font-medium whitespace-nowrap">이벤트 전문가</span>
             </div>
-            <div class="text-2xl sm:text-3xl font-black text-white">15<span class="text-purple-400">년</span> <span class="text-sm font-normal text-slate-400">경력</span></div>
-            <p class="text-[11px] text-slate-500 mt-1">실제 이벤트 총괄 운영PD 직영</p>
+            <div class="text-2xl sm:text-3xl font-black text-white whitespace-nowrap">15<span class="text-purple-400">년</span> <span class="text-sm font-normal text-slate-400">경력</span></div>
+            <p class="text-[11px] text-slate-500 mt-1 whitespace-nowrap">실제 이벤트 총괄 운영PD 직영</p>
           </div>
 
         </div>
@@ -265,8 +265,8 @@
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
           
           <!-- Pillar 1: 진행팀장 파견제 -->
-          <div class="glass-card p-8 relative flex flex-col justify-between group">
-            <div class="absolute -top-3.5 left-8 px-3 py-1 rounded-full bg-amber-500 text-black text-xs font-black shadow-md">
+          <div class="glass-card p-7 sm:p-8 relative flex flex-col justify-between group">
+            <div class="absolute -top-3.5 left-8 px-3 py-1 rounded-full bg-amber-500 text-black text-xs font-black shadow-md whitespace-nowrap">
               CORE 01
             </div>
             <div>
@@ -279,13 +279,13 @@
               </p>
             </div>
             <div class="pt-4 border-t border-slate-800/80 text-xs text-amber-400/90 font-medium flex items-center gap-1.5">
-              <i data-lucide="check-circle-2" class="w-4 h-4"></i> 클라이언트의 현장 스탭 통제 부담 완전 해소
+              <i data-lucide="check-circle-2" class="w-4 h-4 flex-shrink-0"></i> <span>클라이언트의 현장 스탭 통제 부담 완전 해소</span>
             </div>
           </div>
 
           <!-- Pillar 2: 6000명 인프라 -->
-          <div class="glass-card p-8 relative flex flex-col justify-between group">
-            <div class="absolute -top-3.5 left-8 px-3 py-1 rounded-full bg-blue-500 text-white text-xs font-black shadow-md">
+          <div class="glass-card p-7 sm:p-8 relative flex flex-col justify-between group">
+            <div class="absolute -top-3.5 left-8 px-3 py-1 rounded-full bg-blue-500 text-white text-xs font-black shadow-md whitespace-nowrap">
               CORE 02
             </div>
             <div>
@@ -298,13 +298,13 @@
               </p>
             </div>
             <div class="pt-4 border-t border-slate-800/80 text-xs text-blue-400/90 font-medium flex items-center gap-1.5">
-              <i data-lucide="check-circle-2" class="w-4 h-4"></i> 긴급 당일 요청 및 대규모 인력 완벽 커버
+              <i data-lucide="check-circle-2" class="w-4 h-4 flex-shrink-0"></i> <span>긴급 당일 요청 및 대규모 인력 완벽 커버</span>
             </div>
           </div>
 
           <!-- Pillar 3: 15년차 이벤트PD -->
-          <div class="glass-card p-8 relative flex flex-col justify-between group">
-            <div class="absolute -top-3.5 left-8 px-3 py-1 rounded-full bg-emerald-500 text-black text-xs font-black shadow-md">
+          <div class="glass-card p-7 sm:p-8 relative flex flex-col justify-between group">
+            <div class="absolute -top-3.5 left-8 px-3 py-1 rounded-full bg-emerald-500 text-black text-xs font-black shadow-md whitespace-nowrap">
               CORE 03
             </div>
             <div>
@@ -317,7 +317,7 @@
               </p>
             </div>
             <div class="pt-4 border-t border-slate-800/80 text-xs text-emerald-400/90 font-medium flex items-center gap-1.5">
-              <i data-lucide="check-circle-2" class="w-4 h-4"></i> 동선 설계, 큐시트 피드백, 행사물품 렌탈 원스톱
+              <i data-lucide="check-circle-2" class="w-4 h-4 flex-shrink-0"></i> <span>동선 설계, 큐시트 피드백, 행사물품 렌탈 원스톱</span>
             </div>
           </div>
 
@@ -348,147 +348,159 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           
           <!-- Service 1: 운영스탭 -->
-          <div class="glass-card p-6 border-slate-800 hover:border-blue-500/50 transition-all flex flex-col justify-between">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <span class="p-3 rounded-xl bg-blue-500/10 text-blue-400">
-                  <i data-lucide="flag" class="w-6 h-6"></i>
-                </span>
-                <span class="text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 font-medium">축제/스포츠/전시</span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">현장 운영스탭</h3>
-              <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
-                야외 페스티벌, 스포츠 경기, 마라톤, 박람회, 팝업스토어 등 대규모 관람객 인솔 및 안전 동선 통제, 무대/부스 보조 지원.
-              </p>
-              <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> 안전 관리 및 펜스 동선 통제</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> 물품 운반 및 부스 운영 지원</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400"></i> 현장 정돈 및 관람객 질서 유지</li>
-              </ul>
+          <div class="glass-card overflow-hidden border-slate-800 hover:border-blue-500/50 transition-all flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/service_festival.jpg" alt="야외축제 및 스포츠행사 현장 운영스탭" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-slate-900/90 text-blue-300 font-semibold border border-blue-500/30 backdrop-blur-md">
+                축제 / 스포츠 / 페스티벌
+              </span>
             </div>
-            <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-blue-600 text-xs font-semibold text-center transition-colors">
-              운영스탭 견적 알아보기 →
-            </a>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-bold text-white mb-2">현장 운영스탭</h3>
+                <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+                  야외 페스티벌, 스포츠 경기, 마라톤, 박람회, 팝업스토어 등 대규모 관람객 인솔 및 안전 동선 통제, 무대/부스 보조 지원.
+                </p>
+                <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400 flex-shrink-0"></i> <span>안전 관리 및 펜스 동선 통제</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400 flex-shrink-0"></i> <span>물품 운반 및 부스 운영 지원</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-blue-400 flex-shrink-0"></i> <span>현장 정돈 및 관람객 질서 유지</span></li>
+                </ul>
+              </div>
+              <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-blue-600 text-xs font-semibold text-center transition-colors">
+                운영스탭 견적 알아보기 →
+              </a>
+            </div>
           </div>
 
           <!-- Service 2: 안내/등록스탭 -->
-          <div class="glass-card p-6 border-slate-800 hover:border-amber-500/50 transition-all flex flex-col justify-between">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <span class="p-3 rounded-xl bg-amber-500/10 text-amber-400">
-                  <i data-lucide="clipboard-check" class="w-6 h-6"></i>
-                </span>
-                <span class="text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 font-medium">컨퍼런스/포럼/박람회</span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">안내 & 등록 데스크 스탭</h3>
-              <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
-                행사의 첫인상을 결정짓는 로비 등록데스크, 명찰 배부, QR 체크인, 기념품 증정, 행사장 좌석 안내를 친절하고 신속하게 수행합니다.
-              </p>
-              <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-amber-400"></i> 참가자 사전/현장 등록 및 명찰 배부</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-amber-400"></i> 티켓팅 및 기념품 패키지 배포</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-amber-400"></i> 주요 세션장 및 편의시설 동선 안내</li>
-              </ul>
+          <div class="glass-card overflow-hidden border-slate-800 hover:border-amber-500/50 transition-all flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/service_guide.jpg" alt="등록데스크 및 안내 스탭" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-slate-900/90 text-amber-300 font-semibold border border-amber-500/30 backdrop-blur-md">
+                컨퍼런스 / 포럼 / 박람회
+              </span>
             </div>
-            <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-amber-600 hover:text-black text-xs font-semibold text-center transition-colors">
-              안내스탭 견적 알아보기 →
-            </a>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-bold text-white mb-2">안내 & 등록 데스크 스탭</h3>
+                <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+                  행사의 첫인상을 결정짓는 로비 등록데스크, 명찰 배부, QR 체크인, 기념품 증정, 행사장 좌석 안내를 친절하고 신속하게 수행합니다.
+                </p>
+                <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-amber-400 flex-shrink-0"></i> <span>참가자 사전/현장 등록 및 명찰 배부</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-amber-400 flex-shrink-0"></i> <span>티켓팅 및 기념품 패키지 배포</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-amber-400 flex-shrink-0"></i> <span>주요 세션장 및 편의시설 동선 안내</span></li>
+                </ul>
+              </div>
+              <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-amber-600 hover:text-black text-xs font-semibold text-center transition-colors">
+                안내스탭 견적 알아보기 →
+              </a>
+            </div>
           </div>
 
           <!-- Service 3: 전문통역 / 리에종 -->
-          <div class="glass-card p-6 border-slate-800 hover:border-purple-500/50 transition-all flex flex-col justify-between">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <span class="p-3 rounded-xl bg-purple-500/10 text-purple-400">
-                  <i data-lucide="languages" class="w-6 h-6"></i>
-                </span>
-                <span class="text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 font-medium">국제회의/글로벌VIP</span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">전문 통역스탭 & 리에종 (Liaison)</h3>
-              <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
-                국제 포럼, 해외 연사 전담 케어(인천공항 입국 영접~호텔~행사장 동행), 1:1 비즈니스 수출상담회 바이어 매칭 전문 인력입니다.
-              </p>
-              <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-purple-400"></i> 영어/중국어/일본어 등 다국어 대응</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-purple-400"></i> 공항 피켓팅 웰컴 영접 및 의전 수행</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-purple-400"></i> 수출상담회 현장 순차 통역</li>
-              </ul>
+          <div class="glass-card overflow-hidden border-slate-800 hover:border-purple-500/50 transition-all flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/service_interpreter.jpg" alt="전문 통역스탭 및 리에종" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-slate-900/90 text-purple-300 font-semibold border border-purple-500/30 backdrop-blur-md">
+                국제회의 / 글로벌 VIP
+              </span>
             </div>
-            <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-purple-600 text-xs font-semibold text-center transition-colors">
-              통역/리에종 견적 알아보기 →
-            </a>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-bold text-white mb-2">전문 통역스탭 & 리에종 (Liaison)</h3>
+                <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+                  국제 포럼, 해외 연사 전담 케어(인천공항 입국 영접~호텔~행사장 동행), 1:1 비즈니스 수출상담회 바이어 매칭 전문 인력입니다.
+                </p>
+                <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-purple-400 flex-shrink-0"></i> <span>영어/중국어/일본어 등 다국어 대응</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-purple-400 flex-shrink-0"></i> <span>공항 피켓팅 웰컴 영접 및 의전 수행</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-purple-400 flex-shrink-0"></i> <span>수출상담회 현장 순차 통역</span></li>
+                </ul>
+              </div>
+              <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-purple-600 text-xs font-semibold text-center transition-colors">
+                통역/리에종 견적 알아보기 →
+              </a>
+            </div>
           </div>
 
           <!-- Service 4: 시상식/의전도우미 -->
-          <div class="glass-card p-6 border-slate-800 hover:border-rose-500/50 transition-all flex flex-col justify-between">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <span class="p-3 rounded-xl bg-rose-500/10 text-rose-400">
-                  <i data-lucide="crown" class="w-6 h-6"></i>
-                </span>
-                <span class="text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 font-medium">정부/공공/기업기념식</span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">시상식 & VIP 의전도우미</h3>
-              <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
-                공식 시상식 상장/트로피 수반 의전, 테이프 커팅식, 현판 제막식, VIP 영빈관 안내 등 단정하고 품격 있는 전문 의전 서비스를 제공합니다.
-              </p>
-              <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-rose-400"></i> 상장·꽃다발·메달 트레이 수반 의전</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-rose-400"></i> 개막식 가위·장갑 테이프커팅 세팅</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-rose-400"></i> 통일된 유니폼과 철저한 사전 리허설</li>
-              </ul>
+          <div class="glass-card overflow-hidden border-slate-800 hover:border-rose-500/50 transition-all flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/service_protocol.jpg" alt="시상식 및 의전도우미" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-slate-900/90 text-rose-300 font-semibold border border-rose-500/30 backdrop-blur-md">
+                정부 / 공공 / 기업기념식
+              </span>
             </div>
-            <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-rose-600 text-xs font-semibold text-center transition-colors">
-              의전도우미 견적 알아보기 →
-            </a>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-bold text-white mb-2">시상식 & VIP 의전도우미</h3>
+                <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+                  공식 시상식 상장/트로피 수반 의전, 테이프 커팅식, 현판 제막식, VIP 영빈관 안내 등 단정하고 품격 있는 전문 의전 서비스를 제공합니다.
+                </p>
+                <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-rose-400 flex-shrink-0"></i> <span>상장·꽃다발·메달 트레이 수반 의전</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-rose-400 flex-shrink-0"></i> <span>개막식 가위·장갑 테이프커팅 세팅</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-rose-400 flex-shrink-0"></i> <span>통일된 유니폼과 철저한 사전 리허설</span></li>
+                </ul>
+              </div>
+              <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-rose-600 text-xs font-semibold text-center transition-colors">
+                의전도우미 견적 알아보기 →
+              </a>
+            </div>
           </div>
 
           <!-- Service 5: 프로모터 -->
-          <div class="glass-card p-6 border-slate-800 hover:border-emerald-500/50 transition-all flex flex-col justify-between">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <span class="p-3 rounded-xl bg-emerald-500/10 text-emerald-400">
-                  <i data-lucide="megaphone" class="w-6 h-6"></i>
-                </span>
-                <span class="text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 font-medium">브랜드팝업/코엑스/킨텍스</span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">전시·박람회 부스 프로모터</h3>
-              <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
-                브랜드 부스 관람객 호객, 룰렛/퀴즈 이벤트 진행, 샘플링 배포, 설문조사 유치 등 높은 에너지와 세일즈 마인드로 모객을 극대화합니다.
-              </p>
-              <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i> 적극적인 보이스와 미소로 관람객 유치</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i> 인스타그램 팔로우/앱 다운로드 유도</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400"></i> 판촉물 배포 및 시연/시식 보조</li>
-              </ul>
+          <div class="glass-card overflow-hidden border-slate-800 hover:border-emerald-500/50 transition-all flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/service_promoter.jpg" alt="전시 박람회 프로모터" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-slate-900/90 text-emerald-300 font-semibold border border-emerald-500/30 backdrop-blur-md">
+                브랜드팝업 / 코엑스 / 킨텍스
+              </span>
             </div>
-            <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-emerald-600 text-xs font-semibold text-center transition-colors">
-              프로모터 견적 알아보기 →
-            </a>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-bold text-white mb-2">전시·박람회 부스 프로모터</h3>
+                <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+                  브랜드 부스 관람객 호객, 룰렛/퀴즈 이벤트 진행, 샘플링 배포, 설문조사 유치 등 높은 에너지와 세일즈 마인드로 모객을 극대화합니다.
+                </p>
+                <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 flex-shrink-0"></i> <span>적극적인 보이스와 미소로 관람객 유치</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 flex-shrink-0"></i> <span>인스타그램 팔로우/앱 다운로드 유도</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-emerald-400 flex-shrink-0"></i> <span>판촉물 배포 및 시연/시식 보조</span></li>
+                </ul>
+              </div>
+              <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-emerald-600 text-xs font-semibold text-center transition-colors">
+                프로모터 견적 알아보기 →
+              </a>
+            </div>
           </div>
 
           <!-- Service 6: 방송방청객 & 서포터즈 -->
-          <div class="glass-card p-6 border-slate-800 hover:border-cyan-500/50 transition-all flex flex-col justify-between">
-            <div>
-              <div class="flex items-center justify-between mb-4">
-                <span class="p-3 rounded-xl bg-cyan-500/10 text-cyan-400">
-                  <i data-lucide="tv" class="w-6 h-6"></i>
-                </span>
-                <span class="text-xs px-2.5 py-1 rounded-md bg-slate-800 text-slate-300 font-medium">방송/쇼케이스/서포터즈</span>
-              </div>
-              <h3 class="text-lg font-bold text-white mb-2">방송 방청객 & 대규모 서포터즈</h3>
-              <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
-                공중파/종편/유튜브 예능 녹화 방청객 동원, 신제품 쇼케이스 관객 유치, 기업 박람회 대규모 참가 서포터즈를 신속하게 소싱합니다.
-              </p>
-              <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400"></i> 연령별·성별 맞춤 타겟팅 관객 동원</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400"></i> 리액션 및 프로그램 콘셉트 사전 교육</li>
-                <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400"></i> 장시간 녹화 출결 관리 및 귀가 통제</li>
-              </ul>
+          <div class="glass-card overflow-hidden border-slate-800 hover:border-cyan-500/50 transition-all flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/service_sports.jpg" alt="방송 방청객 및 행사 서포터즈" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-slate-900/90 text-cyan-300 font-semibold border border-cyan-500/30 backdrop-blur-md">
+                방송 / 쇼케이스 / 서포터즈
+              </span>
             </div>
-            <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-cyan-600 text-xs font-semibold text-center transition-colors">
-              방청객/서포터즈 견적 알아보기 →
-            </a>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-lg font-bold text-white mb-2">방송 방청객 & 대규모 서포터즈</h3>
+                <p class="text-slate-400 text-xs sm:text-sm leading-relaxed mb-4">
+                  공중파/종편/유튜브 예능 녹화 방청객 동원, 신제품 쇼케이스 관객 유치, 기업 박람회 대규모 참가 서포터즈를 신속하게 소싱합니다.
+                </p>
+                <ul class="space-y-1.5 text-xs text-slate-300 mb-6">
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 flex-shrink-0"></i> <span>연령별·성별 맞춤 타겟팅 관객 동원</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 flex-shrink-0"></i> <span>리액션 및 프로그램 콘셉트 사전 교육</span></li>
+                  <li class="flex items-center gap-2"><i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400 flex-shrink-0"></i> <span>장시간 녹화 출결 관리 및 귀가 통제</span></li>
+                </ul>
+              </div>
+              <a href="#calculator" class="w-full py-2.5 rounded-xl bg-slate-800/80 hover:bg-cyan-600 text-xs font-semibold text-center transition-colors">
+                방청객/서포터즈 견적 알아보기 →
+              </a>
+            </div>
           </div>
 
         </div>
@@ -496,18 +508,18 @@
         <!-- Extra Service Banner: 15년차 이벤트PD 현장 총괄지원 -->
         <div class="mt-10 p-6 sm:p-8 rounded-3xl bg-gradient-to-r from-blue-900/40 via-slate-900/60 to-amber-900/30 border border-slate-700/80 flex flex-col lg:flex-row items-center justify-between gap-6">
           <div class="flex items-start gap-4">
-            <div class="p-3.5 rounded-2xl bg-amber-500/20 text-amber-400 hidden sm:block">
+            <div class="p-3.5 rounded-2xl bg-amber-500/20 text-amber-400 hidden sm:block flex-shrink-0">
               <i data-lucide="sparkle" class="w-8 h-8"></i>
             </div>
             <div>
-              <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">Premium Solution</span>
+              <span class="text-xs font-bold text-amber-400 uppercase tracking-wider whitespace-nowrap">Premium Solution</span>
               <h4 class="text-lg sm:text-xl font-bold text-white mt-1">인력 파견을 넘어선 "현장 운영지원 & 연출 총괄 지원"</h4>
               <p class="text-slate-400 text-xs sm:text-sm mt-1 max-w-2xl leading-relaxed">
                 행사 기획사가 아니더라도 걱정하지 마세요. 요청 시 15년 경력의 베테랑 이벤트 PD가 큐시트 검토, 동선 시뮬레이션, 현장 연출 및 무대 총괄까지 함께 지원합니다.
               </p>
             </div>
           </div>
-          <a href="#contact" class="btn-primary whitespace-nowrap px-6 py-3.5 rounded-xl text-xs font-bold text-black flex items-center gap-2 shadow-lg">
+          <a href="#contact" class="btn-primary whitespace-nowrap px-6 py-3.5 rounded-xl text-xs font-bold text-black flex items-center gap-2 shadow-lg flex-shrink-0">
             <span>운영총괄 상담 신청</span>
             <i data-lucide="arrow-right" class="w-4 h-4"></i>
           </a>
@@ -517,7 +529,7 @@
     </section>
 
     <!-- ==========================================================================
-         5. EQUIPMENT RENTAL (운영물품 렌탈 지원)
+         5. EQUIPMENT RENTAL (운영물품 렌탈 지원) - Real Photos Integrated!
          ========================================================================== -->
     <section id="rental" class="py-20 bg-slate-950/70 relative border-t border-b border-slate-900">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -538,149 +550,165 @@
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           
           <!-- Item 1: 무전기 -->
-          <div class="glass-card p-5 border-slate-800 flex flex-col justify-between group">
-            <div>
-              <div class="w-full h-36 rounded-xl bg-slate-800/80 flex items-center justify-center text-amber-400 mb-4 overflow-hidden border border-slate-700/60 relative">
-                <i data-lucide="radio" class="w-12 h-12 group-hover:scale-110 transition-transform"></i>
-                <span class="absolute top-2 right-2 text-[10px] bg-slate-900/90 text-slate-300 px-2 py-0.5 rounded border border-slate-700">인기 1위</span>
-              </div>
-              <h4 class="font-bold text-white text-base">행사용 디지털 무전기</h4>
-              <p class="text-slate-400 text-xs mt-1">렉케이스 보관함 + 귀걸이형 이어마이크 풀세트 포함</p>
-              <div class="mt-3 flex items-baseline gap-1.5">
-                <span class="text-lg font-black text-amber-400">₩15,000</span>
-                <span class="text-[11px] text-slate-500">/ 대당 (VAT별도)</span>
-              </div>
+          <div class="glass-card overflow-hidden border-slate-800 flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/rental_radio.jpg" alt="행사용 디지털 무전기 세트" class="w-full h-full object-cover">
+              <span class="absolute top-2 right-2 text-[10px] bg-amber-500 text-black font-extrabold px-2 py-0.5 rounded shadow whitespace-nowrap">인기 1위</span>
             </div>
-            <button data-add-rental="radio" class="mt-4 w-full py-2 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-300 transition-colors flex items-center justify-center gap-1.5">
-              <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
-            </button>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="font-bold text-white text-base">행사용 디지털 무전기</h4>
+                <p class="text-slate-400 text-xs mt-1">렉케이스 보관함 + 귀걸이형 이어마이크 풀세트 포함</p>
+                <div class="mt-3 flex items-baseline gap-1.5 whitespace-nowrap">
+                  <span class="text-lg font-black text-amber-400">₩15,000</span>
+                  <span class="text-[11px] text-slate-500">/ 대당 (VAT별도)</span>
+                </div>
+              </div>
+              <button data-add-rental="radio" class="mt-4 w-full py-2.5 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-200 transition-colors flex items-center justify-center gap-1.5 whitespace-nowrap">
+                <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
+              </button>
+            </div>
           </div>
 
           <!-- Item 2: 경광봉 -->
-          <div class="glass-card p-5 border-slate-800 flex flex-col justify-between group">
-            <div>
-              <div class="w-full h-36 rounded-xl bg-slate-800/80 flex items-center justify-center text-rose-400 mb-4 overflow-hidden border border-slate-700/60">
-                <i data-lucide="flashlight" class="w-12 h-12 group-hover:scale-110 transition-transform"></i>
-              </div>
-              <h4 class="font-bold text-white text-base">안전 통제 경광봉</h4>
-              <p class="text-slate-400 text-xs mt-1">고휘도 LED 점멸/점등 기능, 새 건전지 풀 포함</p>
-              <div class="mt-3 flex items-baseline gap-1.5">
-                <span class="text-lg font-black text-amber-400">₩6,000</span>
-                <span class="text-[11px] text-slate-500">/ 개당 (VAT별도)</span>
-              </div>
+          <div class="glass-card overflow-hidden border-slate-800 flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/rental_baton.jpg" alt="안전 통제 경광봉" class="w-full h-full object-cover">
             </div>
-            <button data-add-rental="baton" class="mt-4 w-full py-2 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-300 transition-colors flex items-center justify-center gap-1.5">
-              <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
-            </button>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="font-bold text-white text-base">안전 통제 경광봉</h4>
+                <p class="text-slate-400 text-xs mt-1">고휘도 LED 점멸/점등 기능, 새 건전지 풀 포함</p>
+                <div class="mt-3 flex items-baseline gap-1.5 whitespace-nowrap">
+                  <span class="text-lg font-black text-amber-400">₩6,000</span>
+                  <span class="text-[11px] text-slate-500">/ 개당 (VAT별도)</span>
+                </div>
+              </div>
+              <button data-add-rental="baton" class="mt-4 w-full py-2.5 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-200 transition-colors flex items-center justify-center gap-1.5 whitespace-nowrap">
+                <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
+              </button>
+            </div>
           </div>
 
           <!-- Item 3: 스탭 티셔츠 -->
-          <div class="glass-card p-5 border-slate-800 flex flex-col justify-between group">
-            <div>
-              <div class="w-full h-36 rounded-xl bg-slate-800/80 flex items-center justify-center text-blue-400 mb-4 overflow-hidden border border-slate-700/60">
-                <i data-lucide="shirt" class="w-12 h-12 group-hover:scale-110 transition-transform"></i>
-              </div>
-              <h4 class="font-bold text-white text-base">스탭 식별 티셔츠</h4>
-              <p class="text-slate-400 text-xs mt-1">앞/뒤 STAFFF 인쇄 완료 (반팔/긴팔 선택 가능)</p>
-              <div class="mt-3 flex items-baseline gap-1.5">
-                <span class="text-lg font-black text-amber-400">₩5,000</span>
-                <span class="text-[11px] text-slate-500">/ 벌당 (VAT별도)</span>
-              </div>
+          <div class="glass-card overflow-hidden border-slate-800 flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/rental_tshirt.jpg" alt="스탭 식별 티셔츠" class="w-full h-full object-cover">
             </div>
-            <button data-add-rental="tshirt" class="mt-4 w-full py-2 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-300 transition-colors flex items-center justify-center gap-1.5">
-              <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
-            </button>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="font-bold text-white text-base">스탭 식별 티셔츠</h4>
+                <p class="text-slate-400 text-xs mt-1">앞/뒤 STAFF 인쇄 완료 (반팔/긴팔 선택 가능)</p>
+                <div class="mt-3 flex items-baseline gap-1.5 whitespace-nowrap">
+                  <span class="text-lg font-black text-amber-400">₩5,000</span>
+                  <span class="text-[11px] text-slate-500">/ 벌당 (VAT별도)</span>
+                </div>
+              </div>
+              <button data-add-rental="tshirt" class="mt-4 w-full py-2.5 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-200 transition-colors flex items-center justify-center gap-1.5 whitespace-nowrap">
+                <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
+              </button>
+            </div>
           </div>
 
           <!-- Item 4: 카드형 스탭 목걸이 (무료 혜택!) -->
-          <div class="glass-card p-5 border-amber-500/40 bg-gradient-to-b from-amber-500/5 to-slate-900 flex flex-col justify-between group relative">
-            <span class="absolute top-3 right-3 text-[10px] bg-amber-500 text-black font-extrabold px-2 py-0.5 rounded shadow">섭외 시 무료!</span>
-            <div>
-              <div class="w-full h-36 rounded-xl bg-slate-800/80 flex items-center justify-center text-amber-300 mb-4 overflow-hidden border border-amber-500/30">
-                <i data-lucide="badge-percent" class="w-12 h-12 group-hover:scale-110 transition-transform"></i>
-              </div>
-              <h4 class="font-bold text-white text-base">카드형 스탭 명찰 목걸이</h4>
-              <p class="text-slate-400 text-xs mt-1">블랙/화이트 하드케이스 + 랜야드 줄 (스탭 섭외 시 무료)</p>
-              <div class="mt-3 flex items-baseline gap-1.5">
-                <span class="text-lg font-black text-emerald-400">₩0 (무료 제공)</span>
-                <span class="text-[11px] text-slate-500">/ 섭외 스탭 수량 지원</span>
-              </div>
+          <div class="glass-card overflow-hidden border-amber-500/40 bg-gradient-to-b from-amber-500/5 to-slate-900 flex flex-col justify-between group relative">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/rental_lanyard.jpg" alt="카드형 스탭 명찰 목걸이" class="w-full h-full object-cover">
+              <span class="absolute top-2 right-2 text-[10px] bg-amber-500 text-black font-extrabold px-2 py-0.5 rounded shadow whitespace-nowrap">섭외 시 무료!</span>
             </div>
-            <button data-add-rental="lanyard" class="mt-4 w-full py-2 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/40 hover:bg-amber-500 hover:text-black text-xs font-semibold transition-colors flex items-center justify-center gap-1.5">
-              <i data-lucide="check" class="w-3.5 h-3.5"></i> 기본 혜택 포함됨
-            </button>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="font-bold text-white text-base">카드형 스탭 목걸이</h4>
+                <p class="text-slate-400 text-xs mt-1">블랙/화이트 하드케이스 + 랜야드 줄 (스탭 섭외 시 무료)</p>
+                <div class="mt-3 flex items-baseline gap-1.5 whitespace-nowrap">
+                  <span class="text-lg font-black text-emerald-400">₩0 (무료 제공)</span>
+                  <span class="text-[11px] text-slate-500">/ 섭외 스탭 수량 지원</span>
+                </div>
+              </div>
+              <button data-add-rental="lanyard" class="mt-4 w-full py-2.5 rounded-lg bg-amber-500/20 text-amber-300 border border-amber-500/40 hover:bg-amber-500 hover:text-black text-xs font-semibold transition-colors flex items-center justify-center gap-1.5 whitespace-nowrap">
+                <i data-lucide="check" class="w-3.5 h-3.5"></i> 기본 혜택 포함됨
+              </button>
+            </div>
           </div>
 
           <!-- Item 5: 벨트 차단봉 -->
-          <div class="glass-card p-5 border-slate-800 flex flex-col justify-between group">
-            <div>
-              <div class="w-full h-36 rounded-xl bg-slate-800/80 flex items-center justify-center text-slate-300 mb-4 overflow-hidden border border-slate-700/60">
-                <i data-lucide="split" class="w-12 h-12 group-hover:scale-110 transition-transform"></i>
-              </div>
-              <h4 class="font-bold text-white text-base">고급형 블랙 벨트 차단봉</h4>
-              <p class="text-slate-400 text-xs mt-1">자동 감김 벨트 2m, 무게추 베이스 흔들림 방지</p>
-              <div class="mt-3 flex items-baseline gap-1.5">
-                <span class="text-lg font-black text-amber-400">₩15,000</span>
-                <span class="text-[11px] text-slate-500">/ 개당 (VAT별도)</span>
-              </div>
+          <div class="glass-card overflow-hidden border-slate-800 flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/rental_belt.jpg" alt="고급형 블랙 벨트 차단봉" class="w-full h-full object-cover">
             </div>
-            <button data-add-rental="belt" class="mt-4 w-full py-2 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-300 transition-colors flex items-center justify-center gap-1.5">
-              <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
-            </button>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="font-bold text-white text-base">고급형 블랙 벨트 차단봉</h4>
+                <p class="text-slate-400 text-xs mt-1">자동 감김 벨트 2m, 무게추 베이스 흔들림 방지</p>
+                <div class="mt-3 flex items-baseline gap-1.5 whitespace-nowrap">
+                  <span class="text-lg font-black text-amber-400">₩15,000</span>
+                  <span class="text-[11px] text-slate-500">/ 개당 (VAT별도)</span>
+                </div>
+              </div>
+              <button data-add-rental="belt" class="mt-4 w-full py-2.5 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-200 transition-colors flex items-center justify-center gap-1.5 whitespace-nowrap">
+                <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
+              </button>
+            </div>
           </div>
 
           <!-- Item 6: 실내 배너대 -->
-          <div class="glass-card p-5 border-slate-800 flex flex-col justify-between group">
-            <div>
-              <div class="w-full h-36 rounded-xl bg-slate-800/80 flex items-center justify-center text-cyan-400 mb-4 overflow-hidden border border-slate-700/60">
-                <i data-lucide="panel-top" class="w-12 h-12 group-hover:scale-110 transition-transform"></i>
-              </div>
-              <h4 class="font-bold text-white text-base">실내용 X배너 거치대</h4>
-              <p class="text-slate-400 text-xs mt-1">출력물 600*1800 거치 가능, 가볍고 쉬운 조립</p>
-              <div class="mt-3 flex items-baseline gap-1.5">
-                <span class="text-lg font-black text-amber-400">₩5,000</span>
-                <span class="text-[11px] text-slate-500">/ 개당 (VAT별도)</span>
-              </div>
+          <div class="glass-card overflow-hidden border-slate-800 flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/rental_banner_in.jpg" alt="실내용 X배너 거치대" class="w-full h-full object-cover">
             </div>
-            <button data-add-rental="banner_in" class="mt-4 w-full py-2 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-300 transition-colors flex items-center justify-center gap-1.5">
-              <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
-            </button>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="font-bold text-white text-base">실내용 X배너 거치대</h4>
+                <p class="text-slate-400 text-xs mt-1">출력물 600*1800 거치 가능, 가볍고 쉬운 조립</p>
+                <div class="mt-3 flex items-baseline gap-1.5 whitespace-nowrap">
+                  <span class="text-lg font-black text-amber-400">₩5,000</span>
+                  <span class="text-[11px] text-slate-500">/ 개당 (VAT별도)</span>
+                </div>
+              </div>
+              <button data-add-rental="banner_in" class="mt-4 w-full py-2.5 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-200 transition-colors flex items-center justify-center gap-1.5 whitespace-nowrap">
+                <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
+              </button>
+            </div>
           </div>
 
           <!-- Item 7: 실외 물통 배너대 -->
-          <div class="glass-card p-5 border-slate-800 flex flex-col justify-between group">
-            <div>
-              <div class="w-full h-36 rounded-xl bg-slate-800/80 flex items-center justify-center text-blue-300 mb-4 overflow-hidden border border-slate-700/60">
-                <i data-lucide="shield-alert" class="w-12 h-12 group-hover:scale-110 transition-transform"></i>
-              </div>
-              <h4 class="font-bold text-white text-base">실외형 물통 배너 거치대</h4>
-              <p class="text-slate-400 text-xs mt-1">출력물 600*1800, 강풍 방지 하부 물통 추 포함</p>
-              <div class="mt-3 flex items-baseline gap-1.5">
-                <span class="text-lg font-black text-amber-400">₩10,000</span>
-                <span class="text-[11px] text-slate-500">/ 개당 (VAT별도)</span>
-              </div>
+          <div class="glass-card overflow-hidden border-slate-800 flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/rental_banner_out.jpg" alt="실외형 물통 배너 거치대" class="w-full h-full object-cover">
             </div>
-            <button data-add-rental="banner_out" class="mt-4 w-full py-2 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-300 transition-colors flex items-center justify-center gap-1.5">
-              <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
-            </button>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="font-bold text-white text-base">실외형 물통 배너 거치대</h4>
+                <p class="text-slate-400 text-xs mt-1">출력물 600*1800, 강풍 방지 하부 물통 추 포함</p>
+                <div class="mt-3 flex items-baseline gap-1.5 whitespace-nowrap">
+                  <span class="text-lg font-black text-amber-400">₩10,000</span>
+                  <span class="text-[11px] text-slate-500">/ 개당 (VAT별도)</span>
+                </div>
+              </div>
+              <button data-add-rental="banner_out" class="mt-4 w-full py-2.5 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-200 transition-colors flex items-center justify-center gap-1.5 whitespace-nowrap">
+                <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
+              </button>
+            </div>
           </div>
 
           <!-- Item 8: 철제 배너대 및 의전물품 -->
-          <div class="glass-card p-5 border-slate-800 flex flex-col justify-between group">
-            <div>
-              <div class="w-full h-36 rounded-xl bg-slate-800/80 flex items-center justify-center text-purple-300 mb-4 overflow-hidden border border-slate-700/60">
-                <i data-lucide="layers" class="w-12 h-12 group-hover:scale-110 transition-transform"></i>
-              </div>
-              <h4 class="font-bold text-white text-base">철제 프리미엄 배너대</h4>
-              <p class="text-slate-400 text-xs mt-1">호텔/컨벤션 로비용 최고급 철제 스탠드형 거치대</p>
-              <div class="mt-3 flex items-baseline gap-1.5">
-                <span class="text-lg font-black text-amber-400">₩20,000</span>
-                <span class="text-[11px] text-slate-500">/ 개당 (VAT별도)</span>
-              </div>
+          <div class="glass-card overflow-hidden border-slate-800 flex flex-col justify-between group">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/rental_banner_steel.jpg" alt="철제 프리미엄 배너대" class="w-full h-full object-cover">
             </div>
-            <button data-add-rental="banner_steel" class="mt-4 w-full py-2 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-300 transition-colors flex items-center justify-center gap-1.5">
-              <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
-            </button>
+            <div class="p-5 flex-1 flex flex-col justify-between">
+              <div>
+                <h4 class="font-bold text-white text-base">철제 프리미엄 배너대</h4>
+                <p class="text-slate-400 text-xs mt-1">호텔/컨벤션 로비용 최고급 철제 스탠드형 거치대</p>
+                <div class="mt-3 flex items-baseline gap-1.5 whitespace-nowrap">
+                  <span class="text-lg font-black text-amber-400">₩20,000</span>
+                  <span class="text-[11px] text-slate-500">/ 개당 (VAT별도)</span>
+                </div>
+              </div>
+              <button data-add-rental="banner_steel" class="mt-4 w-full py-2.5 rounded-lg bg-slate-800 hover:bg-amber-500 hover:text-black text-xs font-semibold text-slate-200 transition-colors flex items-center justify-center gap-1.5 whitespace-nowrap">
+                <i data-lucide="plus" class="w-3.5 h-3.5"></i> 견적 계산기에 담기
+              </button>
+            </div>
           </div>
 
         </div>
@@ -719,23 +747,23 @@
             <!-- Step 1: 근무 형태 및 일수 -->
             <div class="glass-card p-6 border-slate-800">
               <div class="flex items-center gap-2.5 mb-4 text-white font-bold text-base border-b border-slate-800 pb-3">
-                <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs">1</span>
+                <span class="w-6 h-6 rounded-full bg-blue-600 text-white flex items-center justify-center text-xs flex-shrink-0 font-bold">1</span>
                 <span>근무 형태 및 행사 일수 선택</span>
               </div>
 
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
                 <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-blue-500 cursor-pointer transition-colors">
-                  <input type="radio" name="shift-type" value="daily" checked class="text-blue-600 focus:ring-0">
+                  <input type="radio" name="shift-type" value="daily" checked class="text-blue-600 focus:ring-0 flex-shrink-0">
                   <div>
-                    <div class="font-bold text-white text-sm">전일 근무 (기본 8시간)</div>
-                    <div class="text-[11px] text-slate-400">식사시간 1시간 별도 보장</div>
+                    <div class="font-bold text-white text-sm whitespace-nowrap">전일 근무 (기본 8시간)</div>
+                    <div class="text-[11px] text-slate-400 whitespace-nowrap">식사시간 1시간 별도 보장</div>
                   </div>
                 </label>
                 <label class="flex items-center gap-3 p-3.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-blue-500 cursor-pointer transition-colors">
-                  <input type="radio" name="shift-type" value="half" class="text-blue-600 focus:ring-0">
+                  <input type="radio" name="shift-type" value="half" class="text-blue-600 focus:ring-0 flex-shrink-0">
                   <div>
-                    <div class="font-bold text-white text-sm">반일 근무 (4시간 이내)</div>
-                    <div class="text-[11px] text-slate-400">단시간 집중 투입 행사</div>
+                    <div class="font-bold text-white text-sm whitespace-nowrap">반일 근무 (4시간 이내)</div>
+                    <div class="text-[11px] text-slate-400 whitespace-nowrap">단시간 집중 투입 행사</div>
                   </div>
                 </label>
               </div>
@@ -760,24 +788,24 @@
             <div class="glass-card p-6 border-slate-800">
               <div class="flex items-center justify-between mb-4 border-b border-slate-800 pb-3">
                 <div class="flex items-center gap-2.5 text-white font-bold text-base">
-                  <span class="w-6 h-6 rounded-full bg-amber-500 text-black flex items-center justify-center text-xs font-black">2</span>
+                  <span class="w-6 h-6 rounded-full bg-amber-500 text-black flex items-center justify-center text-xs font-black flex-shrink-0">2</span>
                   <span>필요 스탭 직무 & 인원 선택</span>
                 </div>
-                <span class="text-[11px] text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/30">진행팀장 동행 권장</span>
+                <span class="text-[11px] text-amber-400 bg-amber-500/10 px-2 py-0.5 rounded border border-amber-500/30 whitespace-nowrap">진행팀장 동행 권장</span>
               </div>
 
               <div class="space-y-3">
                 
                 <!-- Leader -->
                 <div class="calc-input-row border-l-2 border-l-amber-500">
-                  <div>
-                    <div class="font-bold text-white text-sm flex items-center gap-1.5">
-                      진행팀장 (현장 총괄 매니저)
-                      <span class="text-[10px] bg-amber-500/20 text-amber-400 px-1.5 py-0.2 rounded font-semibold">책임자</span>
+                  <div class="min-w-0 pr-2">
+                    <div class="font-bold text-white text-sm flex items-center gap-1.5 flex-wrap">
+                      <span>진행팀장 (현장 총괄 매니저)</span>
+                      <span class="text-[10px] bg-amber-500/20 text-amber-400 px-1.5 py-0.2 rounded font-semibold whitespace-nowrap">책임자</span>
                     </div>
                     <div class="text-[11px] text-slate-400">현장 출결, 동선, 로테이션 인솔</div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 flex-shrink-0">
                     <button data-staff-type="leader" data-action="minus" class="counter-btn" aria-label="감소">-</button>
                     <span id="count-leader" class="w-6 text-center font-bold text-white text-sm">1</span>
                     <button data-staff-type="leader" data-action="plus" class="counter-btn" aria-label="증가">+</button>
@@ -786,11 +814,11 @@
 
                 <!-- Operations -->
                 <div class="calc-input-row">
-                  <div>
+                  <div class="min-w-0 pr-2">
                     <div class="font-bold text-white text-sm">현장 운영스탭</div>
                     <div class="text-[11px] text-slate-400">안전 통제, 펜스 라인, 부스 보조</div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 flex-shrink-0">
                     <button data-staff-type="operations" data-action="minus" class="counter-btn" aria-label="감소">-</button>
                     <span id="count-operations" class="w-6 text-center font-bold text-white text-sm">2</span>
                     <button data-staff-type="operations" data-action="plus" class="counter-btn" aria-label="증가">+</button>
@@ -799,11 +827,11 @@
 
                 <!-- Guide / Desk -->
                 <div class="calc-input-row">
-                  <div>
+                  <div class="min-w-0 pr-2">
                     <div class="font-bold text-white text-sm">안내 & 등록데스크 스탭</div>
                     <div class="text-[11px] text-slate-400">QR체크인, 명찰 배부, 티켓팅</div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 flex-shrink-0">
                     <button data-staff-type="guide" data-action="minus" class="counter-btn" aria-label="감소">-</button>
                     <span id="count-guide" class="w-6 text-center font-bold text-white text-sm">2</span>
                     <button data-staff-type="guide" data-action="plus" class="counter-btn" aria-label="증가">+</button>
@@ -812,11 +840,11 @@
 
                 <!-- Protocol Hostess -->
                 <div class="calc-input-row">
-                  <div>
+                  <div class="min-w-0 pr-2">
                     <div class="font-bold text-white text-sm">시상식 / VIP 의전도우미</div>
                     <div class="text-[11px] text-slate-400">상장·메달 수반, 테이프커팅, 귀빈 의전</div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 flex-shrink-0">
                     <button data-staff-type="protocol" data-action="minus" class="counter-btn" aria-label="감소">-</button>
                     <span id="count-protocol" class="w-6 text-center font-bold text-white text-sm">0</span>
                     <button data-staff-type="protocol" data-action="plus" class="counter-btn" aria-label="증가">+</button>
@@ -825,11 +853,11 @@
 
                 <!-- Liaison / Interpreter -->
                 <div class="calc-input-row">
-                  <div>
+                  <div class="min-w-0 pr-2">
                     <div class="font-bold text-white text-sm">전문 통역스탭 & VIP 리에종</div>
                     <div class="text-[11px] text-slate-400">공항 영접, 국제회의, 해외연사 케어</div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 flex-shrink-0">
                     <button data-staff-type="interpreter" data-action="minus" class="counter-btn" aria-label="감소">-</button>
                     <span id="count-interpreter" class="w-6 text-center font-bold text-white text-sm">0</span>
                     <button data-staff-type="interpreter" data-action="plus" class="counter-btn" aria-label="증가">+</button>
@@ -838,11 +866,11 @@
 
                 <!-- Promoter -->
                 <div class="calc-input-row">
-                  <div>
+                  <div class="min-w-0 pr-2">
                     <div class="font-bold text-white text-sm">부스 홍보 / 프로모터</div>
                     <div class="text-[11px] text-slate-400">전시회 호객, 룰렛 이벤트, 샘플링</div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 flex-shrink-0">
                     <button data-staff-type="promoter" data-action="minus" class="counter-btn" aria-label="감소">-</button>
                     <span id="count-promoter" class="w-6 text-center font-bold text-white text-sm">0</span>
                     <button data-staff-type="promoter" data-action="plus" class="counter-btn" aria-label="증가">+</button>
@@ -851,11 +879,11 @@
 
                 <!-- Audience -->
                 <div class="calc-input-row">
-                  <div>
+                  <div class="min-w-0 pr-2">
                     <div class="font-bold text-white text-sm">방송 / 쇼케이스 방청객</div>
                     <div class="text-[11px] text-slate-400">스튜디오 녹화 방청, 관객 유치</div>
                   </div>
-                  <div class="flex items-center gap-3">
+                  <div class="flex items-center gap-3 flex-shrink-0">
                     <button data-staff-type="audience" data-action="minus" class="counter-btn" aria-label="감소">-</button>
                     <span id="count-audience" class="w-6 text-center font-bold text-white text-sm">0</span>
                     <button data-staff-type="audience" data-action="plus" class="counter-btn" aria-label="증가">+</button>
@@ -868,92 +896,92 @@
             <!-- Step 3: 운영물품 렌탈 선택 -->
             <div class="glass-card p-6 border-slate-800">
               <div class="flex items-center gap-2.5 mb-4 text-white font-bold text-base border-b border-slate-800 pb-3">
-                <span class="w-6 h-6 rounded-full bg-emerald-500 text-black flex items-center justify-center text-xs font-black">3</span>
+                <span class="w-6 h-6 rounded-full bg-emerald-500 text-black flex items-center justify-center text-xs font-black flex-shrink-0">3</span>
                 <span>필요 물품 렌탈 옵션</span>
               </div>
 
               <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
                 
                 <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-900 border border-slate-800">
-                  <label class="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" id="rental-chk-radio" checked class="custom-checkbox">
-                    <span class="text-slate-200 font-medium">행사용 무전기 세트</span>
+                  <label class="flex items-center gap-2 cursor-pointer min-w-0 pr-1">
+                    <input type="checkbox" id="rental-chk-radio" checked class="custom-checkbox flex-shrink-0">
+                    <span class="text-slate-200 font-medium whitespace-nowrap">행사용 무전기 세트</span>
                   </label>
-                  <div class="flex items-center gap-1">
+                  <div class="flex items-center gap-1 flex-shrink-0">
                     <input type="number" id="rental-qty-radio" value="5" min="1" max="50" class="w-12 bg-slate-800 text-center rounded border border-slate-700 py-0.5 text-white">
                     <span class="text-slate-400">대</span>
                   </div>
                 </div>
 
                 <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-900 border border-slate-800">
-                  <label class="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" id="rental-chk-baton" class="custom-checkbox">
-                    <span class="text-slate-200 font-medium">안전 경광봉</span>
+                  <label class="flex items-center gap-2 cursor-pointer min-w-0 pr-1">
+                    <input type="checkbox" id="rental-chk-baton" class="custom-checkbox flex-shrink-0">
+                    <span class="text-slate-200 font-medium whitespace-nowrap">안전 경광봉</span>
                   </label>
-                  <div class="flex items-center gap-1">
+                  <div class="flex items-center gap-1 flex-shrink-0">
                     <input type="number" id="rental-qty-baton" value="2" min="1" max="50" disabled class="w-12 bg-slate-800 text-center rounded border border-slate-700 py-0.5 text-white disabled:opacity-40">
                     <span class="text-slate-400">개</span>
                   </div>
                 </div>
 
                 <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-900 border border-slate-800">
-                  <label class="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" id="rental-chk-tshirt" checked class="custom-checkbox">
-                    <span class="text-slate-200 font-medium">스탭 식별 티셔츠</span>
+                  <label class="flex items-center gap-2 cursor-pointer min-w-0 pr-1">
+                    <input type="checkbox" id="rental-chk-tshirt" checked class="custom-checkbox flex-shrink-0">
+                    <span class="text-slate-200 font-medium whitespace-nowrap">스탭 식별 티셔츠</span>
                   </label>
-                  <div class="flex items-center gap-1">
+                  <div class="flex items-center gap-1 flex-shrink-0">
                     <input type="number" id="rental-qty-tshirt" value="5" min="1" max="100" class="w-12 bg-slate-800 text-center rounded border border-slate-700 py-0.5 text-white">
                     <span class="text-slate-400">벌</span>
                   </div>
                 </div>
 
                 <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-900 border border-slate-800">
-                  <label class="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" id="rental-chk-lanyard" checked class="custom-checkbox">
-                    <span class="text-emerald-400 font-medium">스탭 카드형 목걸이</span>
+                  <label class="flex items-center gap-2 cursor-pointer min-w-0 pr-1">
+                    <input type="checkbox" id="rental-chk-lanyard" checked class="custom-checkbox flex-shrink-0">
+                    <span class="text-emerald-400 font-medium whitespace-nowrap">스탭 카드형 목걸이</span>
                   </label>
-                  <span class="text-[11px] text-amber-400 font-bold">무료 제공</span>
+                  <span class="text-[11px] text-amber-400 font-bold whitespace-nowrap">무료 제공</span>
                 </div>
 
                 <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-900 border border-slate-800">
-                  <label class="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" id="rental-chk-belt" class="custom-checkbox">
-                    <span class="text-slate-200 font-medium">블랙 벨트 차단봉</span>
+                  <label class="flex items-center gap-2 cursor-pointer min-w-0 pr-1">
+                    <input type="checkbox" id="rental-chk-belt" class="custom-checkbox flex-shrink-0">
+                    <span class="text-slate-200 font-medium whitespace-nowrap">블랙 벨트 차단봉</span>
                   </label>
-                  <div class="flex items-center gap-1">
+                  <div class="flex items-center gap-1 flex-shrink-0">
                     <input type="number" id="rental-qty-belt" value="2" min="1" max="50" disabled class="w-12 bg-slate-800 text-center rounded border border-slate-700 py-0.5 text-white disabled:opacity-40">
                     <span class="text-slate-400">개</span>
                   </div>
                 </div>
 
                 <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-900 border border-slate-800">
-                  <label class="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" id="rental-chk-banner_in" class="custom-checkbox">
-                    <span class="text-slate-200 font-medium">실내 배너 거치대</span>
+                  <label class="flex items-center gap-2 cursor-pointer min-w-0 pr-1">
+                    <input type="checkbox" id="rental-chk-banner_in" class="custom-checkbox flex-shrink-0">
+                    <span class="text-slate-200 font-medium whitespace-nowrap">실내 배너 거치대</span>
                   </label>
-                  <div class="flex items-center gap-1">
+                  <div class="flex items-center gap-1 flex-shrink-0">
                     <input type="number" id="rental-qty-banner_in" value="2" min="1" max="20" disabled class="w-12 bg-slate-800 text-center rounded border border-slate-700 py-0.5 text-white disabled:opacity-40">
                     <span class="text-slate-400">개</span>
                   </div>
                 </div>
 
                 <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-900 border border-slate-800">
-                  <label class="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" id="rental-chk-banner_out" class="custom-checkbox">
-                    <span class="text-slate-200 font-medium">실외 물통 배너대</span>
+                  <label class="flex items-center gap-2 cursor-pointer min-w-0 pr-1">
+                    <input type="checkbox" id="rental-chk-banner_out" class="custom-checkbox flex-shrink-0">
+                    <span class="text-slate-200 font-medium whitespace-nowrap">실외 물통 배너대</span>
                   </label>
-                  <div class="flex items-center gap-1">
+                  <div class="flex items-center gap-1 flex-shrink-0">
                     <input type="number" id="rental-qty-banner_out" value="2" min="1" max="20" disabled class="w-12 bg-slate-800 text-center rounded border border-slate-700 py-0.5 text-white disabled:opacity-40">
                     <span class="text-slate-400">개</span>
                   </div>
                 </div>
 
                 <div class="flex items-center justify-between p-2.5 rounded-lg bg-slate-900 border border-slate-800">
-                  <label class="flex items-center gap-2 cursor-pointer">
-                    <input type="checkbox" id="rental-chk-banner_steel" class="custom-checkbox">
-                    <span class="text-slate-200 font-medium">철제 프리미엄 배너대</span>
+                  <label class="flex items-center gap-2 cursor-pointer min-w-0 pr-1">
+                    <input type="checkbox" id="rental-chk-banner_steel" class="custom-checkbox flex-shrink-0">
+                    <span class="text-slate-200 font-medium whitespace-nowrap">철제 프리미엄 배너대</span>
                   </label>
-                  <div class="flex items-center gap-1">
+                  <div class="flex items-center gap-1 flex-shrink-0">
                     <input type="number" id="rental-qty-banner_steel" value="2" min="1" max="20" disabled class="w-12 bg-slate-800 text-center rounded border border-slate-700 py-0.5 text-white disabled:opacity-40">
                     <span class="text-slate-400">개</span>
                   </div>
@@ -972,10 +1000,10 @@
 
               <div class="flex items-center justify-between pb-4 border-b border-slate-800">
                 <span class="font-extrabold text-white text-lg flex items-center gap-2">
-                  <i data-lucide="receipt" class="w-5 h-5 text-amber-400"></i>
-                  예상 견적 요약
+                  <i data-lucide="receipt" class="w-5 h-5 text-amber-400 flex-shrink-0"></i>
+                  <span>예상 견적 요약</span>
                 </span>
-                <span id="calc-staff-summary-badge" class="text-xs px-2.5 py-1 rounded-full bg-blue-500/20 text-blue-300 font-bold border border-blue-500/30">
+                <span id="calc-staff-summary-badge" class="text-xs px-2.5 py-1 rounded-full bg-blue-500/20 text-blue-300 font-bold border border-blue-500/30 whitespace-nowrap">
                   총 인원 5명 / 1일간
                 </span>
               </div>
@@ -984,21 +1012,21 @@
               <div class="py-5 space-y-3.5 text-sm">
                 
                 <div class="flex justify-between items-center text-slate-300">
-                  <span class="text-slate-400">스탭 인건비 소계</span>
-                  <span id="calc-staff-subtotal" class="font-bold text-white text-base">0원</span>
+                  <span class="text-slate-400 whitespace-nowrap">스탭 인건비 소계</span>
+                  <span id="calc-staff-subtotal" class="font-bold text-white text-base whitespace-nowrap">0원</span>
                 </div>
 
                 <div class="flex justify-between items-center text-slate-300">
-                  <span class="text-slate-400">운영물품 렌탈 소계</span>
-                  <span id="calc-rental-subtotal" class="font-bold text-white text-base">0원</span>
+                  <span class="text-slate-400 whitespace-nowrap">운영물품 렌탈 소계</span>
+                  <span id="calc-rental-subtotal" class="font-bold text-white text-base whitespace-nowrap">0원</span>
                 </div>
 
                 <div class="flex justify-between items-center pt-2 border-t border-slate-800/60 text-slate-300">
-                  <label class="flex items-center gap-2 cursor-pointer text-slate-400 text-xs">
-                    <input type="checkbox" id="calc-vat-toggle" checked class="custom-checkbox">
+                  <label class="flex items-center gap-2 cursor-pointer text-slate-400 text-xs whitespace-nowrap">
+                    <input type="checkbox" id="calc-vat-toggle" checked class="custom-checkbox flex-shrink-0">
                     <span>부가세(VAT 10%) 포함</span>
                   </label>
-                  <span id="calc-vat-amount" class="font-medium text-slate-300">0원</span>
+                  <span id="calc-vat-amount" class="font-medium text-slate-300 whitespace-nowrap">0원</span>
                 </div>
 
               </div>
@@ -1007,22 +1035,22 @@
               <div class="pt-5 border-t-2 border-slate-800">
                 <div class="text-xs text-amber-400/90 font-semibold mb-1">총 예상 섭외 견적</div>
                 <div class="flex items-baseline justify-between">
-                  <span id="calc-grand-total" class="text-3xl sm:text-4xl font-black text-amber-400 tracking-tight">
+                  <span id="calc-grand-total" class="text-3xl sm:text-4xl font-black text-amber-400 tracking-tight whitespace-nowrap">
                     0원
                   </span>
-                  <span class="text-xs text-slate-500">예상 산출액</span>
+                  <span class="text-xs text-slate-500 whitespace-nowrap">예상 산출액</span>
                 </div>
               </div>
 
               <!-- Action Buttons -->
               <div class="mt-8 space-y-3">
-                <button id="btn-copy-estimate" class="w-full py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm flex items-center justify-center gap-2 border border-slate-700 transition-colors">
-                  <i data-lucide="copy" class="w-4 h-4 text-amber-400"></i>
+                <button id="btn-copy-estimate" class="w-full py-3.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-bold text-sm flex items-center justify-center gap-2 border border-slate-700 transition-colors whitespace-nowrap">
+                  <i data-lucide="copy" class="w-4 h-4 text-amber-400 flex-shrink-0"></i>
                   <span>견적서 내용 클립보드 복사</span>
                 </button>
 
-                <button id="btn-fill-form" class="w-full btn-primary py-3.5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 text-black">
-                  <i data-lucide="file-text" class="w-4 h-4"></i>
+                <button id="btn-fill-form" class="w-full btn-primary py-3.5 rounded-xl font-bold text-sm flex items-center justify-center gap-2 text-black whitespace-nowrap">
+                  <i data-lucide="file-text" class="w-4 h-4 flex-shrink-0"></i>
                   <span>이 견적으로 온라인 상담 신청하기</span>
                 </button>
               </div>
@@ -1049,7 +1077,7 @@
     </section>
 
     <!-- ==========================================================================
-         7. CASE STUDIES & PORTFOLIO (행사 수행 실적)
+         7. CASE STUDIES & PORTFOLIO (행사 수행 실적) - Real Photos Integrated!
          ========================================================================== -->
     <section id="portfolio" class="py-20 bg-slate-950/60 relative border-t border-b border-slate-900">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1068,116 +1096,152 @@
 
           <!-- Filter Pills -->
           <div class="mt-8 flex flex-wrap items-center justify-center gap-2">
-            <button data-filter="all" class="portfolio-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-blue-600 text-white transition-all">전체보기</button>
-            <button data-filter="forum" class="portfolio-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all">국제포럼/의전</button>
-            <button data-filter="expo" class="portfolio-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all">전시/박람회</button>
-            <button data-filter="festival" class="portfolio-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all">축제/스포츠</button>
-            <button data-filter="vip" class="portfolio-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all">기업/시상식</button>
+            <button data-filter="all" class="portfolio-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-blue-600 text-white transition-all whitespace-nowrap">전체보기</button>
+            <button data-filter="forum" class="portfolio-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all whitespace-nowrap">국제포럼/의전</button>
+            <button data-filter="expo" class="portfolio-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all whitespace-nowrap">전시/박람회</button>
+            <button data-filter="festival" class="portfolio-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all whitespace-nowrap">축제/스포츠</button>
+            <button data-filter="vip" class="portfolio-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700 transition-all whitespace-nowrap">기업/시상식</button>
           </div>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           
-          <!-- Case 1 -->
-          <div class="portfolio-item glass-card p-6 border-slate-800" data-category="forum vip">
-            <div class="flex items-center justify-between text-xs mb-3">
-              <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 font-semibold border border-purple-500/20">국제포럼 / 리에종</span>
-              <span class="text-slate-500">최근 실적</span>
+          <!-- Case 1: 신라호텔 국제 포럼 -->
+          <div class="portfolio-item glass-card overflow-hidden border-slate-800 flex flex-col justify-between group" data-category="forum vip">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/event_shilla_hotel.jpg" alt="신라호텔 국제 포럼 VIP 연사 통역 케어" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-purple-900/90 text-purple-300 font-semibold border border-purple-500/30 backdrop-blur-md">
+                국제포럼 / VIP 리에종
+              </span>
             </div>
-            <h3 class="text-base font-bold text-white mb-2">신라호텔 국제 포럼 VIP 연사 통역 케어</h3>
-            <div class="space-y-1.5 text-xs text-slate-400 mb-4">
-              <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500"></i> 인천국제공항 ~ 신라호텔 (4일간)</div>
-              <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500"></i> 전문 리에종 2인, 수행 통역 2인 전담 투입</div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-base font-bold text-white mb-2">신라호텔 국제 포럼 VIP 연사 통역 케어</h3>
+                <div class="space-y-1.5 text-xs text-slate-400 mb-4">
+                  <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>인천국제공항 ~ 신라호텔 (4일간)</span></div>
+                  <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>전문 리에종 2인, 수행 통역 2인 전담 투입</span></div>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
+                  해외 초청 주요 VIP 연사의 공항 피켓팅 영접, 호텔 체크인 및 회의장 동선 케어, 의전 수행 완벽 진행.
+                </p>
+              </div>
             </div>
-            <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
-              해외 초청 주요 VIP 연사의 공항 피켓팅 영접, 호텔 체크인 및 회의장 동선 케어, 의전 수행 완벽 진행.
-            </p>
           </div>
 
-          <!-- Case 2 -->
-          <div class="portfolio-item glass-card p-6 border-slate-800" data-category="expo">
-            <div class="flex items-center justify-between text-xs mb-3">
-              <span class="px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 font-semibold border border-blue-500/20">대형 전시페스티벌</span>
-              <span class="text-slate-500">최근 실적</span>
+          <!-- Case 2: 강남 SETEC 페스티벌 -->
+          <div class="portfolio-item glass-card overflow-hidden border-slate-800 flex flex-col justify-between group" data-category="expo">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/event_setec_dna.jpg" alt="강남 디지털 DNA 페스티벌 학여울 SETEC" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-blue-900/90 text-blue-300 font-semibold border border-blue-500/30 backdrop-blur-md">
+                대형 전시페스티벌
+              </span>
             </div>
-            <h3 class="text-base font-bold text-white mb-2">강남 디지털 DNA 페스티벌 (SETEC)</h3>
-            <div class="space-y-1.5 text-xs text-slate-400 mb-4">
-              <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500"></i> 학여울 SETEC 제1, 제2 전시장 전관</div>
-              <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500"></i> 진행팀장 2명 + 운영스탭 18명 (총 20명)</div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-base font-bold text-white mb-2">강남 디지털 DNA 페스티벌 (SETEC)</h3>
+                <div class="space-y-1.5 text-xs text-slate-400 mb-4">
+                  <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>학여울 SETEC 제1, 제2 전시장 전관</span></div>
+                  <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>진행팀장 2명 + 운영스탭 18명 (총 20명)</span></div>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
+                  대규모 학생 및 학부모 관람객 등록데스크 발권, 체험 부스 안전 통제 및 무전기 관제 시스템 완벽 운영.
+                </p>
+              </div>
             </div>
-            <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
-              대규모 학생 및 학부모 관람객 등록데스크 발권, 체험 부스 안전 통제 및 무전기 관제 시스템 완벽 운영.
-            </p>
           </div>
 
-          <!-- Case 3 -->
-          <div class="portfolio-item glass-card p-6 border-slate-800" data-category="festival">
-            <div class="flex items-center justify-between text-xs mb-3">
-              <span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-semibold border border-emerald-500/20">스포츠 / 마라톤</span>
-              <span class="text-slate-500">최근 실적</span>
+          <!-- Case 3: 상암 월드컵경기장 러닝대회 -->
+          <div class="portfolio-item glass-card overflow-hidden border-slate-800 flex flex-col justify-between group" data-category="festival">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/event_sangam_running.jpg" alt="상암 월드컵경기장 러닝대회 홍보부스" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-emerald-900/90 text-emerald-300 font-semibold border border-emerald-500/30 backdrop-blur-md">
+                스포츠 / 마라톤
+              </span>
             </div>
-            <h3 class="text-base font-bold text-white mb-2">상암 월드컵경기장 러닝대회 홍보부스</h3>
-            <div class="space-y-1.5 text-xs text-slate-400 mb-4">
-              <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500"></i> 상암 월드컵경기장 평화광장</div>
-              <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500"></i> 이벤트 홍보스탭 2인, 렌탈 물품 지원</div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-base font-bold text-white mb-2">상암 월드컵경기장 러닝대회 홍보부스</h3>
+                <div class="space-y-1.5 text-xs text-slate-400 mb-4">
+                  <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>상암 월드컵경기장 평화광장</span></div>
+                  <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>이벤트 홍보스탭 2인, 렌탈 물품 지원</span></div>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
+                  러닝 참가자 5,000여 명 대상 부스 프로모션, 기념품 패키지 배포 및 현장 포토존 운영.
+                </p>
+              </div>
             </div>
-            <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
-              러닝 참가자 5,000여 명 대상 부스 프로모션, 기념품 패키지 배포 및 현장 포토존 운영.
-            </p>
           </div>
 
-          <!-- Case 4 -->
-          <div class="portfolio-item glass-card p-6 border-slate-800" data-category="vip">
-            <div class="flex items-center justify-between text-xs mb-3">
-              <span class="px-2 py-0.5 rounded bg-rose-500/10 text-rose-400 font-semibold border border-rose-500/20">정부/공공 시상식</span>
-              <span class="text-slate-500">최근 실적</span>
+          <!-- Case 4: 과천 경마장 시상식 -->
+          <div class="portfolio-item glass-card overflow-hidden border-slate-800 flex flex-col justify-between group" data-category="vip">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/event_ai_awards.jpg" alt="과천 경마장 AI공모전 시상식 의전도우미" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-rose-900/90 text-rose-300 font-semibold border border-rose-500/30 backdrop-blur-md">
+                정부/공공 시상식
+              </span>
             </div>
-            <h3 class="text-base font-bold text-white mb-2">과천 경마장 AI공모전 시상식 의전</h3>
-            <div class="space-y-1.5 text-xs text-slate-400 mb-4">
-              <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500"></i> 과천 렛츠런파크 대강당 행사장</div>
-              <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500"></i> 시상식 전문 의전도우미 2인 수반</div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-base font-bold text-white mb-2">과천 경마장 AI공모전 시상식 의전</h3>
+                <div class="space-y-1.5 text-xs text-slate-400 mb-4">
+                  <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>과천 렛츠런파크 대강당 행사장</span></div>
+                  <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>시상식 전문 의전도우미 2인 수반</span></div>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
+                  내외빈 귀빈 영접 및 상장·상패 트레이 의전 수반, 수상자 동선 리허설 및 기념 촬영 보조.
+                </p>
+              </div>
             </div>
-            <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
-              내외빈 귀빈 영접 및 상장·상패 트레이 의전 수반, 수상자 동선 리허설 및 기념 촬영 보조.
-            </p>
           </div>
 
-          <!-- Case 5 -->
-          <div class="portfolio-item glass-card p-6 border-slate-800" data-category="forum vip">
-            <div class="flex items-center justify-between text-xs mb-3">
-              <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-400 font-semibold border border-purple-500/20">특급호텔 포럼</span>
-              <span class="text-slate-500">최근 실적</span>
+          <!-- Case 5: 강남 엘리에나호텔 -->
+          <div class="portfolio-item glass-card overflow-hidden border-slate-800 flex flex-col justify-between group" data-category="forum vip">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/event_eliana_hotel.jpg" alt="강남 엘리에나 호텔 포럼행사 의전도우미" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-purple-900/90 text-purple-300 font-semibold border border-purple-500/30 backdrop-blur-md">
+                특급호텔 포럼
+              </span>
             </div>
-            <h3 class="text-base font-bold text-white mb-2">강남 엘리에나 호텔 포럼행사 의전</h3>
-            <div class="space-y-1.5 text-xs text-slate-400 mb-4">
-              <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500"></i> 강남구 논현동 엘리에나 호텔 그랜드볼룸</div>
-              <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500"></i> VIP 전담 의전도우미 2인</div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-base font-bold text-white mb-2">강남 엘리에나 호텔 포럼행사 의전</h3>
+                <div class="space-y-1.5 text-xs text-slate-400 mb-4">
+                  <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>강남구 논현동 엘리에나 호텔 그랜드볼룸</span></div>
+                  <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>VIP 전담 의전도우미 2인</span></div>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
+                  주요 초청 연사 단상 의전, 객석 착석 안내 및 마이크 전달 등 매끄러운 세미나 진행.
+                </p>
+              </div>
             </div>
-            <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
-              주요 초청 연사 단상 의전, 객석 착석 안내 및 마이크 전달 등 매끄러운 세미나 진행.
-            </p>
           </div>
 
-          <!-- Case 6 -->
-          <div class="portfolio-item glass-card p-6 border-slate-800" data-category="expo">
-            <div class="flex items-center justify-between text-xs mb-3">
-              <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-400 font-semibold border border-amber-500/20">코엑스 박람회</span>
-              <span class="text-slate-500">최근 실적</span>
+          <!-- Case 6: 코엑스 인터참 뷰티박람회 -->
+          <div class="portfolio-item glass-card overflow-hidden border-slate-800 flex flex-col justify-between group" data-category="expo">
+            <div class="img-zoom-container h-44 w-full bg-slate-900 relative">
+              <img src="assets/images/event_coex_intercharm.jpg" alt="코엑스 인터참 뷰티박람회 프로모터" class="w-full h-full object-cover">
+              <span class="absolute top-3 left-3 text-[11px] px-2.5 py-1 rounded-md bg-amber-900/90 text-amber-300 font-semibold border border-amber-500/30 backdrop-blur-md">
+                코엑스 박람회
+              </span>
             </div>
-            <h3 class="text-base font-bold text-white mb-2">코엑스(COEX) 인터참 뷰티박람회 프로모터</h3>
-            <div class="space-y-1.5 text-xs text-slate-400 mb-4">
-              <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500"></i> 삼성동 코엑스 1층 A/B홀</div>
-              <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500"></i> 전문 프로모터 및 안내스탭 4인</div>
+            <div class="p-6 flex-1 flex flex-col justify-between">
+              <div>
+                <h3 class="text-base font-bold text-white mb-2">코엑스(COEX) 인터참 뷰티박람회 프로모터</h3>
+                <div class="space-y-1.5 text-xs text-slate-400 mb-4">
+                  <div class="flex items-center gap-2"><i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>삼성동 코엑스 1층 A/B홀</span></div>
+                  <div class="flex items-center gap-2"><i data-lucide="users" class="w-3.5 h-3.5 text-slate-500 flex-shrink-0"></i> <span>전문 프로모터 및 안내스탭 4인</span></div>
+                </div>
+                <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
+                  글로벌 바이어 및 참관객 대상 화장품 샘플링 시연, 인스타그램 팔로우 이벤트 부스 완판 지원.
+                </p>
+              </div>
             </div>
-            <p class="text-xs text-slate-400 leading-relaxed border-t border-slate-800/80 pt-3">
-              글로벌 바이어 및 참관객 대상 화장품 샘플링 시연, 인스타그램 팔로우 이벤트 부스 완판 지원.
-            </p>
           </div>
 
         </div>
 
         <div class="mt-10 text-center">
-          <p class="text-xs text-slate-500 mb-3">
+          <p class="text-xs text-slate-400 mb-3">
             세빛섬 워프레임 팬미팅 • 원주 복합문화센터 개관식 • 홍익대 아트센터 예술일자리박람회 • 노들섬 야외영화제 • 대한체육회 기념식 외 다수
           </p>
           <a href="#contact" class="inline-flex items-center gap-2 text-xs font-bold text-amber-400 hover:text-amber-300">
@@ -1212,42 +1276,42 @@
         <div class="grid grid-cols-1 md:grid-cols-5 gap-4 mb-16">
           
           <div class="glass-card p-5 border-slate-800 text-center relative">
-            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center mx-auto mb-3 text-sm">
+            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center mx-auto mb-3 text-sm flex-shrink-0">
               01
             </div>
-            <h4 class="font-bold text-white text-sm mb-1">섭외 문의 접수</h4>
+            <h4 class="font-bold text-white text-sm mb-1 whitespace-nowrap">섭외 문의 접수</h4>
             <p class="text-[11px] text-slate-400">온라인/전화 상담을 통한 행사 개요 및 필요 인원 확인</p>
           </div>
 
           <div class="glass-card p-5 border-slate-800 text-center relative">
-            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center mx-auto mb-3 text-sm">
+            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center mx-auto mb-3 text-sm flex-shrink-0">
               02
             </div>
-            <h4 class="font-bold text-white text-sm mb-1">맞춤 견적 및 제안</h4>
+            <h4 class="font-bold text-white text-sm mb-1 whitespace-nowrap">맞춤 견적 및 제안</h4>
             <p class="text-[11px] text-slate-400">직무별 최적 단가 산출 및 물품 렌탈 견적서 신속 발송</p>
           </div>
 
           <div class="glass-card p-5 border-slate-800 text-center relative">
-            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center mx-auto mb-3 text-sm">
+            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center mx-auto mb-3 text-sm flex-shrink-0">
               03
             </div>
-            <h4 class="font-bold text-white text-sm mb-1">인력 확정 및 배정</h4>
+            <h4 class="font-bold text-white text-sm mb-1 whitespace-nowrap">인력 확정 및 배정</h4>
             <p class="text-[11px] text-slate-400">행사 10일 전 최종 인력 확정, 진행팀장 지정 및 매뉴얼 교육</p>
           </div>
 
           <div class="glass-card p-5 border-slate-800 text-center relative">
-            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center mx-auto mb-3 text-sm">
+            <div class="w-10 h-10 rounded-full bg-blue-600 text-white font-bold flex items-center justify-center mx-auto mb-3 text-sm flex-shrink-0">
               04
             </div>
-            <h4 class="font-bold text-white text-sm mb-1">현장 총괄 운영</h4>
+            <h4 class="font-bold text-white text-sm mb-1 whitespace-nowrap">현장 총괄 운영</h4>
             <p class="text-[11px] text-slate-400">팀장 인솔 하 리허설, 포지션 로테이션 및 안전 운영</p>
           </div>
 
           <div class="glass-card p-5 border-slate-800 text-center relative">
-            <div class="w-10 h-10 rounded-full bg-amber-500 text-black font-extrabold flex items-center justify-center mx-auto mb-3 text-sm">
+            <div class="w-10 h-10 rounded-full bg-amber-500 text-black font-extrabold flex items-center justify-center mx-auto mb-3 text-sm flex-shrink-0">
               05
             </div>
-            <h4 class="font-bold text-white text-sm mb-1">사후 보고 및 정산</h4>
+            <h4 class="font-bold text-white text-sm mb-1 whitespace-nowrap">사후 보고 및 정산</h4>
             <p class="text-[11px] text-slate-400">행사 종료 후 세금계산서 발행 및 2주 이내 투명한 정산</p>
           </div>
 
@@ -1256,7 +1320,7 @@
         <!-- Crucial Notice Accordion/Cards -->
         <div class="glass-card p-6 sm:p-8 border-slate-800">
           <h3 class="text-base sm:text-lg font-bold text-white mb-6 flex items-center gap-2">
-            <i data-lucide="alert-circle" class="w-5 h-5 text-amber-400"></i>
+            <i data-lucide="alert-circle" class="w-5 h-5 text-amber-400 flex-shrink-0"></i>
             <span>스탭 섭외 요청 전 반드시 확인해 주세요</span>
           </h3>
 
@@ -1328,7 +1392,7 @@
           <!-- Contact Form (Col 7) -->
           <div class="lg:col-span-7 glass-card p-6 sm:p-8 border-slate-800">
             <h3 class="text-lg font-bold text-white mb-6 flex items-center gap-2">
-              <i data-lucide="send" class="w-5 h-5 text-amber-400"></i>
+              <i data-lucide="send" class="w-5 h-5 text-amber-400 flex-shrink-0"></i>
               <span>섭외견적 온라인 문의서</span>
             </h3>
 
@@ -1380,13 +1444,13 @@
 
               <div class="pt-2">
                 <label class="flex items-center gap-2 cursor-pointer text-xs text-slate-400">
-                  <input type="checkbox" id="contact-privacy" required class="custom-checkbox">
+                  <input type="checkbox" id="contact-privacy" required class="custom-checkbox flex-shrink-0">
                   <span>개인정보 수집 및 상담 이용에 동의합니다. (상담 완료 후 안전하게 파기됩니다.)</span>
                 </label>
               </div>
 
-              <button type="submit" class="w-full btn-primary py-4 rounded-xl font-bold text-base flex items-center justify-center gap-2 text-black shadow-lg">
-                <i data-lucide="send" class="w-5 h-5"></i>
+              <button type="submit" class="w-full btn-primary py-4 rounded-xl font-bold text-base flex items-center justify-center gap-2 text-black shadow-lg whitespace-nowrap">
+                <i data-lucide="send" class="w-5 h-5 flex-shrink-0"></i>
                 <span>섭외 견적 문의 접수하기</span>
               </button>
 
@@ -1398,7 +1462,7 @@
             
             <!-- Quick Call Box -->
             <div class="glass-card p-6 sm:p-7 border-amber-500/30 bg-gradient-to-br from-amber-500/10 via-slate-900 to-slate-900">
-              <span class="text-xs font-bold text-amber-400 uppercase tracking-wider">Fast Response</span>
+              <span class="text-xs font-bold text-amber-400 uppercase tracking-wider whitespace-nowrap">Fast Response</span>
               <h3 class="text-xl font-black text-white mt-1">긴급 섭외 & 직통 유선 상담</h3>
               <p class="text-xs text-slate-300 mt-2 leading-relaxed">
                 행사가 얼마 남지 않았거나 급하게 스탭이 필요하신가요? 지금 바로 전화 주시면 즉시 가용 인력을 체크해 드립니다.
@@ -1408,15 +1472,15 @@
                 <div>
                   <div class="text-[11px] text-slate-400">섭외 총괄 담당</div>
                   <div class="text-lg font-black text-white">김용 실장 <span class="text-xs font-normal text-amber-400">(운영PD)</span></div>
-                  <div class="text-xl font-black text-amber-400 tracking-tight">010-8827-0486</div>
+                  <div class="text-xl font-black text-amber-400 tracking-tight whitespace-nowrap">010-8827-0486</div>
                 </div>
-                <a href="tel:01088270486" class="p-3.5 rounded-xl bg-amber-500 text-black font-bold hover:bg-amber-400 transition-colors shadow-lg shadow-amber-500/30" aria-label="전화 걸기">
+                <a href="tel:01088270486" class="p-3.5 rounded-xl bg-amber-500 text-black font-bold hover:bg-amber-400 transition-colors shadow-lg shadow-amber-500/30 flex-shrink-0" aria-label="전화 걸기">
                   <i data-lucide="phone" class="w-6 h-6"></i>
                 </a>
               </div>
 
-              <div class="mt-4 flex items-center gap-2 text-xs text-slate-400">
-                <i data-lucide="clock" class="w-4 h-4 text-amber-400"></i>
+              <div class="mt-4 flex items-center gap-2 text-xs text-slate-400 whitespace-nowrap">
+                <i data-lucide="clock" class="w-4 h-4 text-amber-400 flex-shrink-0"></i>
                 <span>상담 시간: AM 10:00 ~ PM 24:00 (야간/주말 항시대기)</span>
               </div>
             </div>
@@ -1425,12 +1489,12 @@
             <div class="glass-card p-6 border-slate-800 space-y-4">
               
               <div class="flex items-start gap-3.5">
-                <div class="p-2.5 rounded-xl bg-blue-500/10 text-blue-400">
+                <div class="p-2.5 rounded-xl bg-blue-500/10 text-blue-400 flex-shrink-0">
                   <i data-lucide="mail" class="w-5 h-5"></i>
                 </div>
                 <div>
                   <div class="text-xs text-slate-400">이메일 공식 문의</div>
-                  <a href="mailto:staff_one@naver.com" class="text-sm font-bold text-white hover:text-blue-400 transition-colors">
+                  <a href="mailto:staff_one@naver.com" class="text-sm font-bold text-white hover:text-blue-400 transition-colors whitespace-nowrap">
                     staff_one@naver.com
                   </a>
                   <p class="text-[11px] text-slate-500">기획서, 과업지시서 첨부 상담 환영</p>
@@ -1438,12 +1502,12 @@
               </div>
 
               <div class="flex items-start gap-3.5 pt-3 border-t border-slate-800/80">
-                <div class="p-2.5 rounded-xl bg-amber-500/10 text-amber-400">
+                <div class="p-2.5 rounded-xl bg-amber-500/10 text-amber-400 flex-shrink-0">
                   <i data-lucide="message-circle" class="w-5 h-5"></i>
                 </div>
                 <div>
                   <div class="text-xs text-slate-400">카카오톡 오픈채팅방</div>
-                  <a href="https://open.kakao.com" target="_blank" class="text-sm font-bold text-white hover:text-amber-400 transition-colors">
+                  <a href="https://open.kakao.com" target="_blank" class="text-sm font-bold text-white hover:text-amber-400 transition-colors whitespace-nowrap">
                     스탭원라인 1:1 실시간 상담
                   </a>
                   <p class="text-[11px] text-slate-500">전국 6천여 명 스탭 네트워크 오픈채팅 운영</p>
@@ -1451,7 +1515,7 @@
               </div>
 
               <div class="flex items-start gap-3.5 pt-3 border-t border-slate-800/80">
-                <div class="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-400">
+                <div class="p-2.5 rounded-xl bg-emerald-500/10 text-emerald-400 flex-shrink-0">
                   <i data-lucide="map-pin" class="w-5 h-5"></i>
                 </div>
                 <div>
@@ -1481,14 +1545,14 @@
       
       <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-8 border-b border-slate-900">
         <div class="flex items-center gap-3">
-          <div class="w-9 h-9 rounded-xl bg-amber-500 flex items-center justify-center font-black text-black text-lg">S1</div>
+          <div class="w-9 h-9 rounded-xl bg-amber-500 flex items-center justify-center font-black text-black text-lg flex-shrink-0">S1</div>
           <div>
-            <div class="font-extrabold text-white text-base">스탭 원라인™ (STAFF ONELINE)</div>
-            <div class="text-[11px] text-slate-500">대한민국 No.1 행사 전문인력 파견 & 운영물품 렌탈</div>
+            <div class="font-extrabold text-white text-base whitespace-nowrap">스탭 원라인™ (STAFF ONELINE)</div>
+            <div class="text-[11px] text-slate-500 whitespace-nowrap">대한민국 No.1 행사 전문인력 파견 & 운영물품 렌탈</div>
           </div>
         </div>
 
-        <div class="flex flex-wrap gap-4 text-xs">
+        <div class="flex flex-wrap gap-4 text-xs whitespace-nowrap">
           <a href="#strengths" class="hover:text-white transition-colors">강점소개</a>
           <a href="#services" class="hover:text-white transition-colors">파견분야</a>
           <a href="#rental" class="hover:text-white transition-colors">물품렌탈</a>
@@ -1519,17 +1583,17 @@
   <!-- ==========================================================================
        11. FLOATING ACTION BAR (모바일 & 데스크톱 퀵 액션)
        ========================================================================== -->
-  <div class="floating-bar flex items-center gap-2 sm:gap-3 text-xs font-bold no-print">
+  <div class="floating-bar flex items-center gap-2 sm:gap-3 text-xs font-bold no-print whitespace-nowrap">
     <a href="tel:01088270486" class="px-3 sm:px-4 py-2 rounded-full bg-slate-800 hover:bg-slate-700 text-white flex items-center gap-1.5 transition-colors border border-slate-700">
-      <i data-lucide="phone-call" class="w-3.5 h-3.5 text-amber-400"></i>
+      <i data-lucide="phone-call" class="w-3.5 h-3.5 text-amber-400 flex-shrink-0"></i>
       <span>전화걸기</span>
     </a>
     <a href="#calculator" class="px-3 sm:px-4 py-2 rounded-full bg-blue-600 hover:bg-blue-500 text-white flex items-center gap-1.5 transition-colors shadow-md shadow-blue-500/20">
-      <i data-lucide="calculator" class="w-3.5 h-3.5"></i>
+      <i data-lucide="calculator" class="w-3.5 h-3.5 flex-shrink-0"></i>
       <span>견적 계산기</span>
     </a>
     <a href="#contact" class="px-3.5 sm:px-4.5 py-2 rounded-full bg-gradient-to-r from-amber-400 to-amber-500 text-black flex items-center gap-1.5 transition-transform hover:scale-105 shadow-md shadow-amber-500/30">
-      <i data-lucide="send" class="w-3.5 h-3.5"></i>
+      <i data-lucide="send" class="w-3.5 h-3.5 flex-shrink-0"></i>
       <span>섭외 문의</span>
     </a>
   </div>
